@@ -1,0 +1,49 @@
+*{
+   
+    box-sizing: border-box;
+    margin:0;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-image:linear-gradient(to bottom, transparent, rgb(19, 17, 17)), url("weather_image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.card{
+    height:280px;
+    padding:25px;
+    border-radius:8px;
+    background-color:black;
+    z-index:0;
+    
+}
+button{
+    border-radius: 50%;
+    background-color:rgb(117, 114, 114);
+    padding:8px;
+}
+.icon{
+    color:white;
+}
+input{
+    background-color:rgb(117, 114, 114);
+    border-radius:8px;
+    padding:8px;
+    border-width:0px;
+
+}
+.details{
+    margin-top:20px;
+}
+.text{
+    display: flex;
+    align-items: center;
+}
+.margin{
+    margin-left: 8px;
+}

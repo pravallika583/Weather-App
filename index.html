@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="search">
+                <input type="text" id="inputtext" placeholder="Enter city name" />
+                <button id="searchBtn"><i class="fa-solid fa-magnifying-glass icon" id="searchicon"></i></button>
+            </div>
+            <div>
+            <h1 class="details">Weather in <span id="cityname">city</span></h1>
+            <h2 id="temp">50°C</h2>
+            <div class="text details">
+            <i class="fas fa-cloud"></i>
+            <p class="margin" id="desc">Scattered Clouds</p>
+            </div>
+            <div class="details">
+            <p>Humidity: <span id="humidity">50%</span><p>
+            <p>wind speed: <span id="wind">8.23km/h</span></p>
+           </div>
+            </div>
+        </div>
+    </div>
+  
+<script src="index.js" ></script>
+</body>
+</html>
